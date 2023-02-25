@@ -1,5 +1,5 @@
 import resume from "../assets/pdf/resume.pdf";
-import asad from "../assets/jpeg/asad6.jpeg";
+import asad from "../assets/jpeg/asad4.jpeg";
 export const headerData = {
   name: "Muhammad Asad",
   title: "Full Stack Developer",
