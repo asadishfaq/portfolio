@@ -378,16 +378,16 @@ function Contacts() {
                                     <FaYoutube aria-label='YouTube' />
                                 </a>
                             )} */}
-              {/* {socialsData.reddit && (
-                                <a
-                                    href={socialsData.reddit}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaRedditAlien aria-label='Reddit' />
-                                </a>
-                            )} */}
+              {socialsData.reddit && (
+                <a
+                  href={socialsData.reddit}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={classes.socialIcon}
+                >
+                  <FaRedditAlien aria-label="Reddit" />
+                </a>
+              )}
               {socialsData.stackOverflow && (
                 <a
                   href={socialsData.stackOverflow}
